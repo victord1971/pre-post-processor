@@ -1,7 +1,9 @@
 
+$light-gray: rgb(211, 211, 211)
+
 
 body {
-    background-color: rgb(211, 211, 211);
+    background-color: $light-gray;
     padding: 0;
     border: 0;
     width: 1440px;
