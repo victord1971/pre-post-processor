@@ -1,6 +1,6 @@
 
-$light-gray: rgb(211, 211, 211)
-
+$light-gray: rgb(211, 211, 211);
+$proxy-white: #EFEFEF;
 
 body {
     background-color: $light-gray;
@@ -10,12 +10,12 @@ body {
     margin: 5% auto 5%;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 form {
     display: flex;
     flex-direction: column;
-    background-color: #EFEFEF;
+    background-color: $proxy-white;
 
 }
 
@@ -26,8 +26,17 @@ container {
     text-align: center;
 }
 
+section {
+    width: 450px;
+}
+
 label {
     color: gray;
     width: 300px;
     
+}
+h1 {
+    margin: 0;
+    color: gold;
+    font-size: 58px;
 }
